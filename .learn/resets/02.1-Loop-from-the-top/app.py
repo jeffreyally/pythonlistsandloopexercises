@@ -7,11 +7,3 @@ my_sample_list = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12]
 # while some_variable_reference > 0:
 #     print(my_sample_list[some_variable_reference])
 #     chage after doing what we wanted, change the variables value so that the next pass it references the new index position
-
-listlength = len(my_sample_list)-1 
-
-print(my_sample_list[listlength])
-
-for items in my_sample_list:
-    print(my_sample_list[listlength])
-    listlength = listlength-1
