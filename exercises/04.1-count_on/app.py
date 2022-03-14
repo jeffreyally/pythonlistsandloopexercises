@@ -13,3 +13,6 @@ for i in my_list:
 
 print(new_list)
 
+#be careful with is as it is very specific.
+# isinstance tends to be more straight forward
+
