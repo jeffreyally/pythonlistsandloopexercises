@@ -15,3 +15,5 @@ print(my_sample_list[listlength])
 for items in my_sample_list:
     print(my_sample_list[listlength])
     listlength = listlength-1
+
+#reverse method would be better to use
