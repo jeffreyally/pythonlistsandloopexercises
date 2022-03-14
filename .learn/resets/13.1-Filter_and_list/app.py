@@ -1,10 +1,7 @@
 
 all_names = ["Romario","Boby","Roosevelt","Emiliy", "Michael", "Greta", "Patricia", "Danzalee"]
 
-def startsWithR(items):
-    return items.startswith('R') == True
-
-resulting_names = list(filter(startsWithR,all_names))
+#Your code go here:
 
 print(resulting_names)
 
