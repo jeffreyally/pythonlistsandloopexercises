@@ -7,3 +7,11 @@ incoming_ajax_data = [
 ]
 
 #Your code go here:
+def data_transformer(data):
+	listofnames = []
+	for items in data:
+		listofnames.append(items['name']+' '+items['last_name'])
+		
+	return listofnames
+
+print(data_transformer(incoming_ajax_data))
