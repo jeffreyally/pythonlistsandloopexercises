@@ -1,9 +1,6 @@
 import re
 
 def lyrics_generator(listOfNumbers):
-    Regex = re.compile(r'Drop the base Drop the base Drop the base ')
-    
-
     lyrics = ''
     for numbers in listOfNumbers:
         if numbers == 0:
@@ -11,9 +8,9 @@ def lyrics_generator(listOfNumbers):
         if numbers == 1:
             lyrics = lyrics + 'Drop the base '
     
-    mo = Regex.sub('Drop the base Drop the base Drop the base !!!Break the base!!! ',lyrics)
-    
-    return mo
+    Regex = re.compile(r'Drop the base Drop the base Drop the base ')
+    ModifiesStringOnlyIfMatches = Regex.sub('Drop the base Drop the base Drop the base !!!Break the base!!! ',lyrics)
+    return ModifiesStringOnlyIfMatches
 
 
 
